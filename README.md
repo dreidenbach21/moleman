@@ -9,15 +9,25 @@ The goal of the game is to take your character the @ and reach the golden door d
 Please Email me @dreidenbach@berkeley.edu if you have any questions or would like me to securely share the code.
 
 When starting the game you are prompted and can choose N(New Game), L(Load Game), or Q(Quit)
+
 ![start](https://i.postimg.cc/XqMGmyRV/Screen-Shot-2019-08-21-at-10-46-16-PM.png)
+
 After selecting the user is prompted to enter a seed value. This is a number that sets all the random choices for every aspect of world creation. I designed a creation process to randomly build rooms and hallways unitl a certain percentage of the world is filled. To submit the seed press 's'
+
 ![mid user selection](https://i.postimg.cc/PJmpj5H1/Screen-Shot-2019-08-21-at-10-46-26-PM.png)
+
 After the seed is submitted the user is prompted to enter their name. enter your name(there is no delete for now) and press';' to submit
+
 ![game example 1](https://i.postimg.cc/CMDfDm8d/Screen-Shot-2019-08-21-at-10-51-23-PM.png)
+
 After the name is entered press E, M, or H to select the difficulty. The difficulty determines the number of enemies that will appear in the world
+
 ![game example 2](https://i.postimg.cc/YqzGD0bH/Screen-Shot-2019-08-21-at-10-51-37-PM.png)
 
-The game controls are  W A S D for movement I J K L for direction digging Z to display the A Star algorithim path that all enemies are locked on to you. X to display your A Star path to the golden door.
+The game controls are  W A S D for movement I J K L for direction digging Z to display the A Star algorithim path that all enemies are locked on to you. X to display your A Star path to the golden door. Your mouse also displays information about what block you are hovering over in the top left corner.
+
+
+To Quit the game press :(shift ;) then q. This autosaves the exact point in teh game writing the history into a text file. If you want to resume rerun the program and select L for load game. Since all the game's choices are based of the initally entered random seed rerunning the entire program from that seed will result i nthe exact same outputs thus resuming the game.
 
 
 
